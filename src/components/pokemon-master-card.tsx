@@ -2,7 +2,7 @@
 import Link from "next/link";
 import styled from "styled-components";
 import Image from "next/image";
-import { findTypeColor } from "@/utils/helpers";
+import { CapitalizeWordHelper, findTypeColor } from "@/utils/helpers";
 import { device } from "@/lib/responsive";
 
 interface PokemonCardProps {
@@ -64,7 +64,7 @@ export function PokemonMasterCard({ name, image, type, id }: PokemonCardProps) {
           {type.map((t, index) => {
             return (
               <PillStyled key={`type-${t}`} value={t}>
-                {t}
+                {CapitalizeWordHelper(t)}
               </PillStyled>
             );
           })}
