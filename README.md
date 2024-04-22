@@ -20,17 +20,19 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+## Pokemon API
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+<img width="1492" alt="image" src="https://github.com/SnehaS1/poke-app/assets/18303528/c056b414-b56d-484f-b55c-b8fc8be88143">
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Applying filter on main page
+<img width="1492" alt="image" src="https://github.com/SnehaS1/poke-app/assets/18303528/711879d0-55c5-4836-8ebc-daeaa28e4608">
+
+- When a type is selected, it leads to a new page displaying Pokémon associated with that type.
+<img width="1492" alt="image" src="https://github.com/SnehaS1/poke-app/assets/18303528/5549348a-3d05-40ea-ac0e-7ae2d7e47bd0">
+
+- Upon selecting a specific Pokémon, the page displays detailed information about it, accompanied by a chart illustrating its stats property.
+<img width="1492" alt="image" src="https://github.com/SnehaS1/poke-app/assets/18303528/379ee02d-c74b-4d1c-a62c-a5e5c8f43695">
+<img width="1492" alt="image" src="https://github.com/SnehaS1/poke-app/assets/18303528/d7ccc940-4732-4421-b92f-a62ff7eb26c9">
+
